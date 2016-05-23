@@ -1,0 +1,42 @@
+.long-banner {
+  width: 100%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.header-info {
+  display: flex;
+  padding: 10px 10px 10px 10px;
+  align-items: center;
+}
+
+.owner-info {
+  flex: 0 0 100px;
+  padding-right: 30px;
+  p {
+    color: $gray;
+  }
+}
+
+.flat-info {
+  flex: 0 0 500px;
+  p {
+    color: $gray-light;
+  }
+}
+
+.white-card {
+  background-color: $gray-lighter;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  .btn-primary {
+    width: 100%;
+  }
+}
+
+.guest-nb {
+  width: 100%;
+}
