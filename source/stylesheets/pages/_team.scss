@@ -6,3 +6,10 @@
 .team-title {
   padding-bottom: 30px;
 }
+
+.a {
+  color: $blue;
+  &hover {
+    color: #29618e
+  }
+}
